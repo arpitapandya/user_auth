@@ -1,0 +1,75 @@
+.signup_banner {
+  margin-top: 40px;
+  .main_subtitle {
+    text-align: center;
+    padding: 24px 16px;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .signup_form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    .checkbox{
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+    .input_banner {
+      margin-bottom: 0px;
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 16px 0 4px 0;
+      }
+      input {
+        box-shadow: none;
+        border-radius: 2px;
+        border: 1px solid #dbdbdb;
+        background-color: #fafafa !important;
+        padding: 0 10px;
+        width: 100%;
+        outline: 0;
+        height: 32px;
+        box-sizing: border-box;
+        margin-top: 4px;
+      }
+      .error-text {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        padding-left: 2px;
+      }
+    }
+    .btn_banner {
+      text-align: center;
+      button {
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 2px;
+        cursor: pointer;
+        width: 100%;
+        background-color: #3897f0;
+        outline: none;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+    .have_account {
+      text-align: center;
+      font-weight: 600;
+      .sign_in_link {
+        text-decoration: unset;
+        font-weight: 700;
+        color: #3897f0;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import 'constant/color.scss';
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background: $BODY_BACKGROUNG_COLOR;
+  background-attachment: fixed;
+  margin: 0 !important;
+  color: $BODY_COLOR;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}

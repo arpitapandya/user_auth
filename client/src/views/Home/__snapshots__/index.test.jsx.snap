@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component renders correctly 1`] = `
+<div
+  className="home_banner"
+>
+  <div
+    className="details"
+  >
+    USER NAME: 
+  </div>
+  <div
+    className="details"
+  >
+    USER AGE: 
+  </div>
+</div>
+`;
